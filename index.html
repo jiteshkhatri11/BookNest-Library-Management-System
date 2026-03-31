@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BookNest — Library Management System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">📚 <span>BookNest</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="addBook.html">Add Book</a></li>
+        <li><a href="viewBooks.html">View Books</a></li>
+      </ul>
+      <div class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">📖 Library Management System</div>
+      <h1 class="hero-title">
+        Every great library<br>begins with <em>order</em>.
+      </h1>
+      <p class="hero-subtitle">
+       BookNest is your all-in-one system for cataloguing, managing, and discovering books. Built for librarians who love what they do.
+      </p>
+      <div class="hero-actions">
+        <a href="viewBooks.html" class="btn btn-primary btn-lg">Browse Collection →</a>
+        <a href="login.html" class="btn btn-outline btn-lg">Sign In</a>
+      </div>
+      <div class="stats-row">
+        <div class="stat">
+          <div class="stat-num" id="heroBookCount">7</div>
+          <div class="stat-label">Books</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">1</div>
+          <div class="stat-label">Branch</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">∞</div>
+          <div class="stat-label">Knowledge</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="bookshelf">
+        <div class="book b1"><span>The Name of the Rose</span></div>
+        <div class="book b2"><span>One Hundred Years</span></div>
+        <div class="book b3"><span>Middlemarch</span></div>
+        <div class="book b4"><span>Beloved</span></div>
+        <div class="book b5"><span>Brothers K</span></div>
+        <div class="book b6"><span>Invisible Cities</span></div>
+        <div class="book b7"><span>Gilead</span></div>
+      </div>
+      <div class="shelf-label">The Collection</div>
+    </div>
+  </section>
+
+  <!-- FEATURE CARDS -->
+  <section class="features">
+    <div class="features-inner">
+      <div class="section-label">What you can do</div>
+      <h2 class="section-title">Everything a librarian needs.</h2>
+      <div class="cards-grid">
+        <a href="login.html" class="card">
+          <div class="card-icon">🔐</div>
+          <div class="card-title">Secure Login</div>
+          <p class="card-desc">Access the system with your librarian credentials. Role-based authentication keeps data safe.</p>
+        </a>
+        <a href="addBook.html" class="card">
+          <div class="card-icon">➕</div>
+          <div class="card-title">Add Books</div>
+          <p class="card-desc">Catalogue new acquisitions instantly. Enter title, author, and ISBN to register any book.</p>
+        </a>
+        <a href="viewBooks.html" class="card">
+          <div class="card-icon">📋</div>
+          <div class="card-title">View & Search</div>
+          <p class="card-desc">Browse the full collection, search by title or author, and manage records with one click.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Update hero book count from live data
+      const el = document.getElementById("heroBookCount");
+      if (el) el.textContent = books.length;
+    });
+  </script>
+</body>
+</html>

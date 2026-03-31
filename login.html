@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign In — BookNest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">📚 <span>BookNest</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="addBook.html">Add Book</a></li>
+        <li><a href="viewBooks.html">View Books</a></li>
+      </ul>
+      <div class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="form-page">
+    <div class="form-card">
+      <div class="form-eyebrow">Librarian Access</div>
+      <h1 class="form-title">Welcome back.</h1>
+      <p class="form-subtitle">Sign in to manage the library collection.</p>
+
+      <form id="loginForm" novalidate>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="e.g. admin"
+            autocomplete="username"
+          />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            autocomplete="current-password"
+          />
+        </div>
+
+        <div style="margin-bottom:1.5rem;">
+          <button type="submit" class="btn btn-primary btn-full btn-lg">Sign In</button>
+        </div>
+      </form>
+
+      
+
+      <div class="form-footer">
+        Don't have an account? <a href="#">Contact your administrator</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
