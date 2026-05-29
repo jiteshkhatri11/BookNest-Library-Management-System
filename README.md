@@ -1,88 +1,138 @@
-# 📚 Library Management System (Frontend)
+# 📚 BookNest - Library Management System
 
-A simple and modern **Library Management System frontend** built using **HTML, CSS, and JavaScript**. This project allows users to add and view books with a clean and responsive user interface.
+A modern and responsive **Library Management System** built using **HTML, CSS, and JavaScript**.
+BookNest helps users manage books efficiently with features like adding books, viewing stored books, and local storage support.
 
 ---
 
 ## 🚀 Features
 
-* 🏠 Home page with navigation
-* 🔐 Login page (demo functionality)
-* ➕ Add new books
-* 📖 View books in a dynamic table
-* 💾 Data stored using **LocalStorage**
-* 🎨 Modern UI with responsive design
-* ✨ Hover effects and clean layout
+* 🔐 Simple Login Interface
+* ➕ Add New Books
+* 📖 View Added Books Dynamically
+* 💾 LocalStorage Data Persistence
+* 🎨 Responsive Modern UI
+* ⚡ Fast and Lightweight
+* 📱 Mobile-Friendly Design
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-* HTML5
-* CSS3
-* JavaScript (Vanilla JS)
-* Browser LocalStorage
+| Technology   | Usage                       |
+| ------------ | --------------------------- |
+| HTML5        | Structure                   |
+| CSS3         | Styling & Responsive Design |
+| JavaScript   | Functionality               |
+| LocalStorage | Data Storage                |
 
 ---
 
 ## 📂 Project Structure
 
-```
-Library-Management-System/
+```bash
+BookNest-Library-Management-System/
 │
-├── index.html        # Home Page
-├── login.html        # Login Page
-├── addBook.html      # Add Book Page
-├── viewBooks.html    # View Books Page
-├── style.css         # Styling
-└── script.js         # Logic & Data Handling
+├── index.html          # Home Page
+├── login.html          # Login Page
+├── addBook.html        # Add Book Page
+├── viewBooks.html      # View Books Page
+├── style.css           # Styling File
+├── script.js           # Application Logic
+└── README.md           # Project Documentation
 ```
 
 ---
 
-## ▶️ How to Run
+## 📸 Screenshots
 
-1. Download or clone the repository:
+### 🏠 Home Page
 
+(Add screenshot here)
 
-2. Open the project folder
+### ➕ Add Book Page
 
-3. Run:
+(Add screenshot here)
 
-   * Open `index.html` in your browser
+### 📖 View Books Page
+
+(Add screenshot here)
 
 ---
 
-## 🌐 Live Demo (Optional)
+## ▶️ Getting Started
 
-You can host this project using GitHub Pages:
+### 1️⃣ Clone the Repository
 
+```bash
+git clone https://github.com/jiteshkhatri11/BookNest-Library-Management-System.git
+```
 
+### 2️⃣ Open Project Folder
 
-## 🔮 Future Improvements
+```bash
+cd BookNest-Library-Management-System
+```
 
-* 🔗 Backend integration (Spring Boot / Node.js)
-* 🗄️ Database connection (MySQL)
-* ✏️ Edit and delete books
-* 🔍 Search and filter functionality
-* 🔐 Real authentication system
+### 3️⃣ Run the Project
+
+Simply open `index.html` in your browser.
+
+---
+
+## 🌐 Live Demo
+
+Deploy easily using:
+
+* GitHub Pages
+* Netlify
+* Vercel
+
+Example:
+
+```bash
+https://jiteshkhatri11.github.io/BookNest-Library-Management-System/
+```
+
+---
+
+## 🔮 Future Enhancements
+
+* 🔗 Backend Integration (Spring Boot / Node.js)
+* 🗄️ MySQL Database Support
+* ✏️ Edit & Delete Books
+* 🔍 Search & Filter Functionality
+* 👤 User Authentication System
+* 📚 Book Categories & Borrow System
 
 ---
 
 ## 🤝 Contributing
 
-Feel free to fork this repository and improve it. Pull requests are welcome!
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Push the branch
+5. Open a Pull Request
 
 ---
 
 ## 📄 License
 
-This project is open-source and available under the **MIT License**.
+This project is licensed under the MIT License.
 
 ---
 
-## 🙋‍♂️ Author
+## 👨‍💻 Author
 
-Jitesh khatri
+**Jitesh Khatri**
 
+* GitHub: https://github.com/jiteshkhatri11
 
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
